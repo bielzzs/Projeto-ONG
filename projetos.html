@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça os projetos sociais da ONG, saiba como se tornar um voluntário ou faça sua doação online.">
+    <title>Projetos e Engajamento | ONG TransformAção</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=240&q=80" alt="Logotipo da ONG TransformAção" width="150" height="50">
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html" aria-current="page">Projetos & Doações</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="reveal-on-scroll">Nossos Projetos Sociais</h1>
+        <p class="intro reveal-on-scroll">Acompanhe nossas iniciativas e veja como você pode contribuir.</p>
+
+        <div class="filter-bar reveal-on-scroll" aria-label="Filtrar projetos">
+            <button class="filter-btn active" type="button" data-filter="todos">Todos</button>
+            <button class="filter-btn" type="button" data-filter="educacao">Educação</button>
+            <button class="filter-btn" type="button" data-filter="sustentabilidade">Sustentabilidade</button>
+            <button class="filter-btn" type="button" data-filter="comunidade">Comunidade</button>
+        </div>
+
+        <section id="galeria-projetos" class="reveal-on-scroll">
+            <h2>Projetos em Destaque</h2>
+            <article class="projeto-card" data-category="educacao">
+                <h3>Educação para o Futuro</h3>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80" alt="Crianças em sala de aula utilizando computadores" width="400" height="250" loading="lazy">
+                    <figcaption>Projeto de letramento digital para jovens.</figcaption>
+                </figure>
+                <p>Oferecemos aulas de informática e programação básica para jovens de baixa renda.</p>
+            </article>
+
+            <article class="projeto-card" data-category="sustentabilidade">
+                <h3>Mãos na Terra</h3>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80" alt="Voluntários plantando árvores em uma horta comunitária" width="400" height="250" loading="lazy">
+                    <figcaption>Horta comunitária sustentável.</figcaption>
+                </figure>
+                <p>Construção e manutenção de hortas urbanas para segurança alimentar da comunidade.</p>
+            </article>
+
+            <article class="projeto-card" data-category="comunidade">
+                <h3>Vizinhos em Ação</h3>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80" alt="Pessoas em reunião comunitária em praça" width="400" height="250" loading="lazy">
+                    <figcaption>Fortalecimento de redes de apoio local.</figcaption>
+                </figure>
+                <p>Organizamos mutirões e encontros para atender famílias em vulnerabilidade social.</p>
+            </article>
+        </section>
+
+        <section id="voluntariado" class="reveal-on-scroll">
+            <h2>Seja um Voluntário</h2>
+            <p>Junte-se à nossa equipe! Temos oportunidades para educadores, administradores e profissionais de tecnologia.</p>
+            <a href="cadastro.html">Quero ser voluntário</a>
+        </section>
+
+        <section id="doacoes" class="reveal-on-scroll">
+            <h2>Apoie Nossa Causa (Doações)</h2>
+            <p>Sua contribuição financeira permite que nossos projetos continuem existindo. Garantimos total transparência na aplicação dos recursos.</p>
+            <ul>
+                <li>PIX: <code>doacoes@ongtransformacao.org.br</code></li>
+                <li>Transferência Bancária: Banco XYZ, Agência 1234, Conta 5678-9</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p><small>&copy; <span data-current-year></span> ONG TransformAção. Acompanhe nossos relatórios de transparência na área do usuário.</small></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
