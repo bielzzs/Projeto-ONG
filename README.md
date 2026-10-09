@@ -30,10 +30,5 @@ CSS3 Avançado: Implementação de leiautes responsivos (mobile-first), uso de F
 
 JavaScript Dinâmico: Consumo de APIs, interatividade de interface e manipulação avançada do DOM.
 
-
-
-
-
-📁 Estrutura de Diretórios
 Plaintext
 plataforma-ong/
